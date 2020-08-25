@@ -1,8 +1,6 @@
-#WAP to print day of any day whose date is given from 2000-2099 by the user
 days =['monday','tuesday','wednesday','thursday','friday','saturday','sunday']
 month = [31,28,31,30,31,30,31,31,30,31,30,31]
 yy = int(input('enter the year you wanna search'))
-#NOTE- Asusumption made that 1st january 2000 was Monday
 sum_year = 0
 sum_year = (yy-1)*365.25
 sum_year = int(sum_year)
